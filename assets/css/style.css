@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald&display=swap');
+
+header {
+    font-family: 'Barlow', sans-serif;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: none;
+    letter-spacing: normal;
+    text-transform: none;
+    margin-top: 100px;
+    color: #303339;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    display: flex; justify-content: center;
+    color:#303339;
+}
+
+ul {
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin: 100px 450px 150px 450px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-transform: none;
+}
