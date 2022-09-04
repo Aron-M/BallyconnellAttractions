@@ -25,9 +25,9 @@ ul {
     justify-content: flex-end;
     justify-content: space-between;
     margin: 100px 450px 150px 450px;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: normal;
     text-transform: none;
 }
