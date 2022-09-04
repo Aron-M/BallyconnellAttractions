@@ -1,8 +1,15 @@
+html {
+    font-size:62.5%
+} 
+body{
+    font-size:1.6rem
+}
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 header {
-    font-family: 'Barlow', sans-serif;
-    font-size: 140px;
+    font-family: 'Bebas-Neue' , sans-serif;
+    font-size:12rem;
     font-style: normal;
     font-weight: none;
     letter-spacing: normal;
@@ -14,8 +21,8 @@ header {
 }
 
 h1 {
-    font-family: 'Barlow', sans-serif;
-    font-size: 30px;
+    font-family: 'Bebas-Neue' , sans-serif;
+    font-size: 4rem;
     display: flex; justify-content: center;
     color:#303339;
 }
@@ -30,4 +37,17 @@ ul {
     font-weight: bolder;
     letter-spacing: normal;
     text-transform: none;
+}
+
+#information {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/ethos-center-image.jpg');
+    
 }
