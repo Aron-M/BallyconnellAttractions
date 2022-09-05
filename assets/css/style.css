@@ -12,22 +12,24 @@ body {
 
 header {
     font-family: 'Bebas-Neue', sans-serif;
-    font-size: 3.5rem;
+    font-size: 10.5rem;
     font-style: normal;
-    font-weight: bold;
+    font-weight:400;
     letter-spacing: normal;
     text-transform: none;
     margin-top: 50px;
-    margin-right: none;
     color: #303339;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
     display: flex;
+    
     justify-content: center;
     color: #303339;
 }
@@ -35,15 +37,34 @@ h1 {
 ul {
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     font-style: normal;
     font-weight: bolder;
     font-size: 1.7rem;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
 }
 
 hr {
-    border-top-style:solid;
-}S
+    border-style:solid;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-align { text-align: center;}
+
+#hero-image {
+    background: url('../images/pod-house.png') no-repeat center center;
+    height: 400px;
+    min-height: 50%;
+    width: 100%;
+    background-size: cover;
+   
+
+}
