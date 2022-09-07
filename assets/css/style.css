@@ -60,11 +60,17 @@ hr {
 .text-align { text-align: center;}
 
 #hero-image {
-    background: url('../images/pod-house.png') no-repeat center center;
+    background: url('../images/pod-house.png') no-repeat center left;
     height: 400px;
     min-height: 50%;
     width: 100%;
     background-size: cover;
-   
+}
+
+.sub-heading { font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 1rem;
+                font-weight: 400;
+                display: flex;
+                justify-content: center;
 
 }
