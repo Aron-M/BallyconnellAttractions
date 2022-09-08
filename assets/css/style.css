@@ -9,6 +9,7 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 header {
     font-family: 'Bebas-Neue', sans-serif;
@@ -73,4 +74,40 @@ hr {
                 display: flex;
                 justify-content: center;
 
+}
+
+.info-block{
+    max-height: 80rem;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8rem;
+    border-width: 1.5 rem;
+    margin: 15rem;
+    border-style: solid;
+    font-family: 'Inter', sans-serif;
+    word-spacing: 0.4rem;
+    line-height: 4rem;
+}
+
+.gallery {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 18rem;
+    clear: both;
+    line-height: 0;
+    display: grid;
+    column-count: 5;
+    column-gap: 0;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 15px;
+}
+
+.resize {
+    width: 35rem;
+    height: 56.2rem;
+}
+
+#kls {
+    width: 100rem;
+    height: auto;
 }
