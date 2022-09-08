@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    background-color: none;
+    background-color: #cdd0d6;
 }
 
 body {
@@ -15,7 +15,7 @@ header {
     font-family: 'Bebas-Neue', sans-serif;
     font-size: 10.5rem;
     font-style: normal;
-    font-weight:400;
+    font-weight: 400;
     letter-spacing: normal;
     text-transform: none;
     margin-top: 50px;
@@ -30,7 +30,7 @@ h1 {
     font-size: 2.2rem;
     text-transform: uppercase;
     display: flex;
-    
+
     justify-content: center;
     color: #303339;
 }
@@ -42,7 +42,7 @@ ul {
     font-style: normal;
     font-weight: bolder;
     font-size: 1.7rem;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     justify-content: space-evenly;
@@ -50,15 +50,17 @@ ul {
 }
 
 hr {
-    border-style:solid;
-    
+    border-style: solid;
+
 }
 
 .text-center {
     text-align: center;
 }
 
-.text-align { text-align: center;}
+.text-align {
+    text-align: center;
+}
 
 #hero-image {
     background: url('../images/pod-house.png') no-repeat center left;
@@ -68,15 +70,16 @@ hr {
     background-size: cover;
 }
 
-.sub-heading { font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 1rem;
-                font-weight: 400;
-                display: flex;
-                justify-content: center;
+.sub-header {
+    font-family: 'Bebas-Neue' sans-serif;
+    font-size: 6rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
 
 }
 
-.info-block{
+.info-block {
     max-height: 80rem;
     font-size: 20px;
     font-weight: 600;
@@ -89,17 +92,29 @@ hr {
     line-height: 4rem;
 }
 
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #303339;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 .gallery {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 18rem;
+
     clear: both;
     line-height: 0;
     display: grid;
     column-count: 5;
     column-gap: 0;
-    grid-template-columns: repeat(8, 1fr);
-    grid-gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 1rem;
+    border: 1rem;
+    padding: 20px;
+    margin-bottom: 5rem;
 }
 
 .resize {
@@ -110,4 +125,34 @@ hr {
 #kls {
     width: 100rem;
     height: auto;
+}
+
+.features {
+    margin-bottom: 80rem;
+}
+
+.includes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    color: #303339;
+}
+
+
+.listfeatures {
+    height:100;
+    padding:0;  
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10;
+}
+
+.listfeatures li {
+    height: 8rem;
+    width: auto;
+    color:#303339;
 }
