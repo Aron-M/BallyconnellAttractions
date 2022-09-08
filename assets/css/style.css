@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     background-color: #60806c;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,10 +20,11 @@ header {
     letter-spacing: normal;
     text-transform: none;
     margin-top: 50px;
-    color: #303339;
+    color: #fdfdff;
     display: flex;
     justify-content: center;
     overflow: hidden;
+   
 }
 
 h1 {
@@ -35,7 +37,7 @@ h1 {
     color: #303339;
 }
 
-ul {
+.nav-style {
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -49,8 +51,29 @@ ul {
 
 }
 
-hr {
+li {
     border-style: solid;
+    border-width: 0.2rem;
+    border-color: #303339;
+    padding: 0.2rem;
+    border-radius: 10%;
+
+}
+a:link { text-decoration:#0f0f0f; }
+
+
+a:visited { text-decoration:#fdfdff; }
+
+
+a:hover { text-decoration:#df1749; }
+
+
+a:active { text-decoration:#cadf12; }
+
+
+
+hr { 
+    margin-bottom: 4rem;
 
 }
 
@@ -65,9 +88,14 @@ hr {
 #hero-image {
     background: url('../images/pod-main-1.jpeg') no-repeat center center ;
     height: 600px;
-    width: auto;
+    width: 182rem;
     background-size:auto;
     margin-top: 5rem;
+    margin-bottom: 8rem;
+    margin-left:35rem;
+    border: auto;
+    border-style: solid;
+    border-width: 0.2rem;
 }
 
 .sub-header {
@@ -82,7 +110,7 @@ hr {
 .info-block {
     max-height: 80rem;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 900;
     padding: 8rem;
     border-width: 1.5 rem;
     margin: 15rem;
@@ -90,6 +118,10 @@ hr {
     font-family: 'Inter', sans-serif;
     word-spacing: 0.4rem;
     line-height: 4rem;
+}
+
+.space {
+    margin-bottom: 2rem;
 }
 
 figcaption {
@@ -149,6 +181,17 @@ figcaption {
     background-color: #303339;
 }
 .listfeatures {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
     height:100;
     padding:0;  
     list-style: none;
