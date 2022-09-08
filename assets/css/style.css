@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: center;
     overflow: hidden;
-   
+
 }
 
 h1 {
@@ -59,20 +59,29 @@ li {
     border-radius: 10%;
 
 }
-a:link { text-decoration:#0f0f0f; }
+
+a:link {
+    text-decoration: #303339;
+}
 
 
-a:visited { text-decoration:#fdfdff; }
+a:visited {
+    text-decoration: #fdfdff;
+}
 
 
-a:hover { text-decoration:#df1749; }
+a:hover {
+    text-decoration: #df1749;
+}
 
 
-a:active { text-decoration:#cadf12; }
+a:active {
+    text-decoration: #cadf12;
+}
 
 
 
-hr { 
+hr {
     margin-bottom: 4rem;
 
 }
@@ -86,13 +95,13 @@ hr {
 }
 
 #hero-image {
-    background: url('../images/pod-main-1.jpeg') no-repeat center center ;
+    background: url('../images/pod-main-1.jpeg') no-repeat center center;
     height: 600px;
     width: 182rem;
-    background-size:auto;
+    background-size: auto;
     margin-top: 5rem;
     margin-bottom: 8rem;
-    margin-left:35rem;
+    margin-left: 35rem;
     border: auto;
     border-style: solid;
     border-width: 0.2rem;
@@ -138,25 +147,33 @@ figcaption {
 .gallery {
 
     clear: both;
-    line-height: 0;
-    display: grid;
+    width: 90%;
+    margin-left: 12.5rem;
+    display:row;
     column-count: 5;
-    column-gap: 0;
-    grid-template-columns: repeat(5, 1fr);
-    margin: 1rem;
-    border: 1rem;
-    padding: 20px;
-    margin-bottom: 5rem;
+    padding: 0.1rem;
+    margin-bottom: 18rem;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    border-width: 0.2rem;
+
 }
 
 .resize {
-    width: 35rem;
-    height: 56.2rem;
+    width: 30rem;
+    height: 46.2rem;
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    border-width: 0.2rem;
+
 }
 
 #kls {
-    width: 100rem;
-    height: auto;
+    width: 80rem;
+    height: 46.2rem;
 }
 
 .features {
@@ -168,7 +185,7 @@ figcaption {
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
     color: #ffffff;
-    border:#ffffff;
+    border: #ffffff;
     border-style: solid;
     border-spacing: 0;
     width: 32rem;
@@ -177,9 +194,10 @@ figcaption {
     margin-left: 110rem;
 }
 
-.features{
+.features {
     background-color: #303339;
 }
+
 .listfeatures {
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
@@ -192,23 +210,24 @@ figcaption {
     justify-content: space-between;
     justify-content: space-evenly;
 
-    height:100;
-    padding:0;  
+    height: 100;
+    padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 10;
-    font-family: "Inter" 'sans-serif';
+    font-family: "Inter"'sans-serif';
 }
 
 .listfeatures li {
     height: 8rem;
     width: auto;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 2.5rem;
 }
 
-.address-and-contact {
-
+.map{
+    display: flex;
+    justify-content: left;
 }
