@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    background-color: #cdd0d6;
+    background-color: #60806c;
 }
 
 body {
@@ -63,11 +63,11 @@ hr {
 }
 
 #hero-image {
-    background: url('../images/pod-house.png') no-repeat center left;
-    height: 400px;
-    min-height: 50%;
-    width: 100%;
-    background-size: cover;
+    background: url('../images/pod-main-1.jpeg') no-repeat center center ;
+    height: 600px;
+    width: auto;
+    background-size:auto;
+    margin-top: 5rem;
 }
 
 .sub-header {
@@ -128,16 +128,21 @@ figcaption {
 }
 
 .features {
-    margin-bottom: 80rem;
+    margin-bottom: 0rem;
 }
 
 .includes {
-    display: flex;
-    justify-content: center;
     margin-bottom: 5rem;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
     color: #ffffff;
+    border:#ffffff;
+    border-style: solid;
+    border-spacing: 0;
+    width: 32rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 110rem;
 }
 
 .features{
@@ -151,6 +156,7 @@ figcaption {
     flex-direction: column;
     justify-content: space-around;
     margin: 10;
+    font-family: "Inter" 'sans-serif';
 }
 
 .listfeatures li {
@@ -158,4 +164,8 @@ figcaption {
     width: auto;
     color:#ffffff;
     font-size: 2.5rem;
+}
+
+.address-and-contact {
+
 }
