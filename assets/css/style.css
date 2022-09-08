@@ -137,10 +137,12 @@ figcaption {
     margin-bottom: 5rem;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
-    color: #303339;
+    color: #ffffff;
 }
 
-
+.features{
+    background-color: #303339;
+}
 .listfeatures {
     height:100;
     padding:0;  
@@ -154,6 +156,6 @@ figcaption {
 .listfeatures li {
     height: 8rem;
     width: auto;
-    color:#303339;
+    color:#ffffff;
     font-size: 2.5rem;
 }
