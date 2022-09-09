@@ -229,7 +229,16 @@ figcaption {
 
 .activities {
     display: inline-block;
-    margin: 5rem 8rem 2rem 0;
-    width: 40rem;
+    margin: 0 2rem 0 2rem;
+    width: 43rem;
+    height:auto;
+}
 
+
+
+.activities-2 {
+    display: inline-block;
+    margin: 0 2rem 0 2rem;
+    width: 43rem;
+    height:auto;
 }
