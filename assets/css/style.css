@@ -227,8 +227,9 @@ figcaption {
     font-size: 2.5rem;
 }
 
-.map{
-    display: flex;
-    justify-content: left;
-}
+.activities {
+    display: inline-block;
+    margin: 5rem 8rem 2rem 0;
+    width: 40rem;
 
+}
